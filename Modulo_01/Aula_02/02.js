@@ -1,0 +1,1 @@
+console.log("Daniel Alves\nRua Nunes Machado, número 47\n500590-050");
