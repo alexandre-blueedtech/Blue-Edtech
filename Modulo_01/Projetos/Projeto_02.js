@@ -58,6 +58,7 @@ while (play == "sim") {
   console.log("Rodadas encerradas!");
   console.log(`Você marcou ${playerScore} ponto(s)!`);
   console.log(`O computador marcou ${computerScore} ponto(s)!`);
+  
   if (playerScore === computerScore) console.log("A partida está empatada!");
   if (playerScore > computerScore) console.log("Você ganhou a partida!");
   if (playerScore < computerScore) console.log("Você perdeu a partida!");
