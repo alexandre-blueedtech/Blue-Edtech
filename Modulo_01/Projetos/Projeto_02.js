@@ -2,7 +2,7 @@ var prompt = require("prompt-sync")();
 
 var choices = ["pedra", "papel", "tesoura"];
 
-//Retorna true se a ganha, retorna false se a perde e returna -1 em caso de empate.
+//Retorna true se a ganha, retorna false se a perde e retorna -1 em caso de empate.
 function winGame(a, b) {
   if (a == b) return -1;
   if (a == choices[0] && b == choices[1]) return false;
@@ -20,12 +20,12 @@ let playerScore;
 let computerScore;
 let play = "sim";
 
-//Iteração para partidas.
+//Loop para partidas.
 while (play == "sim") {
   rodadas = +prompt("Quantas rodadas deseja jogar? ");
   playerScore = 0;
   computerScore = 0;
-  //Iteração para rodadas.
+  //Loop para rodadas.
   for (let i = 0; i < rodadas; i++) {
     playerChoice = prompt(
       "Escolha 'Pedra', 'Papel ou 'Tesoura': "
@@ -56,11 +56,13 @@ while (play == "sim") {
     }
   }
   console.log("Rodadas encerradas!");
-  console.log(`Você marcou ${playerScore} pontos!`);
-  console.log(`O computador marcou ${computerScore} pontos!`);
+  console.log(`Você marcou ${playerScore} ponto(s)!`);
+  console.log(`O computador marcou ${computerScore} ponto(s)!`);
   if (playerScore === computerScore) console.log("A partida está empatada!");
   if (playerScore > computerScore) console.log("Você ganhou a partida!");
   if (playerScore < computerScore) console.log("Você perdeu a partida!");
 
-  play = prompt(`Deseja jogar novamente? Responda 'sim': `).toLowerCase();
+  play = prompt(
+    `Deseja jogar novamente? Responda 'sim' se deseja continuar, ou qualquer coisa para encerrar o jogo: `
+  ).toLowerCase();
 }
