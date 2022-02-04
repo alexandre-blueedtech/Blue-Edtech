@@ -30,13 +30,15 @@ for (let i = 0; i < rodadas; i++) {
     for (const value of lista) {
         if(value.dado === maiorDado) value.pontuacao++;
     }
-
-    vencedoresRodada = lista.filter(a => a.dado === maiorDado);
+    
+    //Verifique os vencedores de cada rodada habilitando o codigo abaixo.
+    /*vencedoresRodada = lista.filter(a => a.dado === maiorDado);
+    console.log(vencedoresRodada);*/
 }
 const maiorPontuacao = lista.sort((a,b) => a.pontuacao - b.pontuacao)[lista.length - 1].pontuacao;
 const vencedoresJogo = lista.filter(a => a.pontuacao === maiorPontuacao);
 
-console.log(`O vencedor do jogo e: `);
+console.log(`O(s) vencedor(es) do jogo e(sao): `);
 for (const value of vencedoresJogo) console.log(value.nome);
 
 
