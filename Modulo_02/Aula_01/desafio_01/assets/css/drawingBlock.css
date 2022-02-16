@@ -1,0 +1,104 @@
+#drawingBlock {
+    position: absolute;
+    width: 400px;
+    height: 330.67px;
+    left: 160px;
+    top: 284px;
+}
+
+#bola1 {
+    position: absolute;
+    left: 1.81%;
+    right: 95.01%;
+    top: 0%;
+    bottom: 96.15%;
+    background: #3F3D56;
+    border-radius: 50%;
+}
+
+#bola2 {
+    position: absolute;
+    left: 7.31%;
+    right: 89.51%;
+    top: 0%;
+    bottom: 96.15%;
+    background: #3F3D56;
+    border-radius: 50%;
+}
+
+#bola3 {
+    position: absolute;
+    left: 12.81%;
+    right: 84.01%;
+    top: 0%;
+    bottom: 96.15%;
+    background: #3F3D56;
+    border-radius: 50%;
+}
+
+#aresta1 {
+    position: absolute;
+    left: 92.36%;
+    right: 3.15%;
+    top: 0.48%;
+    bottom: 98.82%;
+    background: #3F3D56;
+    border-radius: 20%;
+}
+
+#aresta2 {
+    position: absolute;
+    left: 92.36%;
+    right: 3.15%;
+    top: 1.79%;
+    bottom: 97.51%;
+    background: #3F3D56;
+    border-radius: 20%;
+}
+
+#aresta3 {
+    position: absolute;
+    left: 92.36%;
+    right: 3.15%;
+    top: 3.1%;
+    bottom: 96.2%;
+    background: #3F3D56;
+    border-radius: 20%;
+}
+
+#aresta4 {
+    position: absolute;
+    left: 0%;
+    right: 0%;
+    top: 5.95%;
+    bottom: 93.7%;
+    border-radius: 15%;
+    background: #CACACA
+}
+
+#aresta5 {
+    position: absolute;
+    left: 40.25%;
+    right: 40.25%;
+    top: 16.32%;
+    bottom: 80.8%;
+    background: #E4E4E4;
+    border-radius: 15%;
+}
+
+#aresta6 {
+    position: absolute;
+    left: 36.17%;
+    right: 36.17%;
+    top: 21.25%;
+    bottom: 75.87%;
+    background: #E4E4E4;
+    border-radius: 15%;
+}
+
+#img {
+    position: absolute;
+    top: 30%;
+    max-width: 100%;
+    height: auto;
+}
