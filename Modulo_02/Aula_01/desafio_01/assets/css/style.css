@@ -11,12 +11,11 @@
     padding: 0;
 }
 
-html, body {
+
+body {
     position: relative;
     width: 1440px;
     height: 900px;
-    overflow-x: hidden;
-    height: 100%;
 }
 
 #wallpaper {
