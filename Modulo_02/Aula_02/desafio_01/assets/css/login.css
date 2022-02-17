@@ -1,0 +1,153 @@
+#welcome {
+  position: absolute;
+  width: 160px;
+  height: 20px;
+  left: 913px;
+  top: 213px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 20px;
+  color: #1a202c;
+}
+
+#titulo {
+  position: absolute;
+  width: 302px;
+  height: 33px;
+  left: 913px;
+  top: 240px;
+  font-family: Merriweather;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 33px;
+  color: #1a202c;
+}
+
+#email {
+  position: absolute;
+  width: 300px;
+  left: 63.4%;
+  right: 33.54%;
+  top: 34.67%;
+  bottom: 63.22%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a202c;
+}
+
+#emailCaixa {
+  position: absolute;
+  height: 5%;
+  width: 23%;
+  left: 63.4%;
+  right: 12.29%;
+  top: 38%;
+  bottom: 56.44%;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: x-large;
+}
+
+#senha {
+  position: absolute;
+  left: 63.4%;
+  right: 33.61%;
+  top: 44.78%;
+  bottom: 53.11%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a202c;
+}
+
+#senhaCaixa {
+  position: absolute;
+  height: 5%;
+  width: 23%;
+  left: 63.4%;
+  right: 12.29%;
+  top: 48.11%;
+  bottom: 46.33%;
+  border: 1px solid #e8e8e8;
+  box-sizing: border-box;
+  border-radius: 5px;
+  font-size: x-large;
+}
+
+#rememberMe {
+  position: absolute;
+  left: 63.51%;
+  right: 28.19%;
+  top: 56.78%;
+  bottom: 41.33%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+}
+
+#forgot {
+  position: absolute;
+  left: 78.33%;
+  right: 12.71%;
+  top: 56.78%;
+  bottom: 41.33%;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 17px;
+  color: blue;
+}
+
+#enter {
+  position: absolute;
+  left: 63.54%;
+  right: 12.36%;
+  top: 61.56%;
+  bottom: 32.89%;
+  background: #04c45c;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#enterGoogle {
+  position: absolute;
+  left: 63.54%;
+  right: 12.36%;
+  top: 68.78%;
+  bottom: 25.67%;
+  background: #1a202c;
+  border-radius: 5px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 16px;
+}
+
+#cadastrar {
+  position: absolute;
+  width: 233px;
+  height: 19px;
+  left: 970px;
+  top: 831px;
+  font-family: Lato;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
+  color: #1a202c;
+}
